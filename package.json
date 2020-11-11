@@ -1,7 +1,7 @@
 {
   "name": "node-express-jwt-auth",
   "version": "1.0.0",
-  "description": "All course files for the Node.js (&amp; Express) JWT Authentication tutorial series on The Net Ninja YouTube channel.",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/AjileJ/node-express-jwt-auth/issues"
   },
-  "homepage": "https://github.com/AjileJ/node-express-jwt-auth#readme"
+  "homepage": "https://github.com/AjileJ/node-express-jwt-auth#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.13"
+  }
 }
